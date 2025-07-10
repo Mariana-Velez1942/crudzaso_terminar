@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "b0dd",
+      "fullName": "Mariana riwi",
+      "username": "hfgj",
+      "email": "riwi@mariaa",
+      "password": "aqwe",
+      "createdAt": "2025-07-10T01:30:19.336Z"
+    },
+    {
+      "id": "987d",
+      "fullName": "Mariana Vélez",
+      "username": "123*",
+      "email": "Mariana@velez.com",
+      "password": "123*",
+      "createdAt": "2025-07-10T01:31:38.199Z"
+    }
+  ],
+  "notes": [],
+  "sharedNotes": []
+}

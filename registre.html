@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CrudNote - Register</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="./css/registre.css">
+</head>
+<body>
+  <header>CrudNote</header>
+<div class="container">
+  <form id="register-form" class="form-box">
+    <h2>Create your account</h2>
+
+    <label>Full Name</label>
+    <input type="text" id="fullname" placeholder="Enter your full name" required />
+
+    <label>Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required />
+
+    <label>Username</label>
+    <input type="text" id="username" placeholder="Choose a username" required />
+
+    <label>Password</label>
+    <input type="password" id="password" placeholder="Create a password" required />
+
+    <button class="btn-primary" type="submit">Register</button>
+    <div class="link">
+      Already have an account? <a href="login.html">Sign in</a>
+    </div>
+  </form>
+
+  <div class="image-box">
+    <img src="./images/formulario.png" alt="CrudNote Sticky Note" />
+  </div>
+</div>
+</div>
+<script src="./js/auth.js"></script>
+<script src="./js/middleware.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CrudNote - Dashboard</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papNM3Z5Df+VgQKpZmcY+cZJv6g1uMi8dXz7yKTxGMCp8W9QrUnmEoxr+/FkAa5VZ/jZNm6YltKd3W49Oe3q9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+<body>
+  <header>
+    <div class="logo">CrudNote</div>
+    <div class="profile-section">
+      <button class="btn-logout">Sign Out</button>
+      <img src="profile.png" alt="Profile" />
+    </div>
+  </header>
+
+  <main>
+    <h1>Hello, Antony</h1>
+    <nav>
+      <a href="#" class="active">All</a>
+      <a href="#">Personal</a>
+      <a href="#">Shared</a>
+    </nav>
+
+    <section>
+      <h2>My Notes</h2>
+      <div class="notes-grid-wrapper">
+        <div class="notes-grid">
+          <div class="note-card">
+            <span class="note-icon"><i class="fas fa-file-alt"></i></span>
+            <h3>Project Brainstorm</h3>
+            <p>Brainstorming session for the new project</p>
+          </div>
+          <div class="note-card">
+            <span class="note-icon"><i class="fas fa-file-alt"></i></span>
+            <h3>Meeting Notes</h3>
+            <p>Notes from the team meeting</p>
+          </div>
+          <div class="note-card">
+            <span class="note-icon"><i class="fas fa-file-alt"></i></span>
+            <h3>Grocery List</h3>
+            <p>Items to buy from the grocery store</p>
+          </div>
+          <div class="note-card">
+            <span class="note-icon"><i class="fas fa-file-alt"></i></span>
+            <h3>Travel Plans</h3>
+            <p>Itinerary for the upcoming trip</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Notes Shared With Me</h2>
+      <div class="notes-grid-wrapper">
+        <div class="notes-grid">
+          <div class="note-card">
+            <span class="note-icon"><i class="fas fa-file-alt"></i></span>
+            <h3>Design Feedback</h3>
+            <p>Feedback on the latest design mockups</p>
+          </div>
+          <div class="note-card">
+            <span class="note-icon"><i class="fas fa-file-alt"></i></span>
+            <h3>Marketing Strategy</h3>
+            <p>Marketing strategy for the new campaign</p>
+          </div>
+          <div class="note-card">
+            <span class="note-icon"><i class="fas fa-file-alt"></i></span>
+            <h3>Client Requirements</h3>
+            <p>Requirements gathered from the client</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <button class="new-note-btn"><i class="fas fa-plus"></i> New Note</button>
+  <script src="./js/middleware.js"></script>
+  <script src="./js/notes.js"></script>
+  <script src="js/perfil.js"></script>
+
+</body>
+</html>

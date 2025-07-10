@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 100%; /* Make the main container fill the full width */
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This centers the 'content' block */
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #007bff;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic-container {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start;  <-- REMOVED or changed this to align to right for content elements below */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #333;
+    width: 100%; /* Ensure title takes full width to allow text-align */
+    text-align: left; /* Keep title aligned left as per image */
+}
+
+.note-area {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.note-textarea {
+    width: calc(100% - 20px);
+    min-height: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    resize: vertical;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+    outline: none;
+}
+
+.note-textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.actions {
+    width: 100%; /* Ensure it spans full width of its parent */
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: flex-end; /* ALIGN ITEMS TO THE RIGHT */
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button.primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.button.primary:hover {
+    background-color: #0056b3;
+}
+
+.button.secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.button.secondary:hover {
+    background-color: #e0e0e0;
+}
+
+.delete-note-container {
+    width: 100%; /* Ensure it spans full width of its parent */
+    margin-bottom: 50px;
+    text-align: right; /* ALIGN TEXT (AND INLINE-BLOCK ELEMENTS) TO THE RIGHT */
+}
+
+.delete-note-button {
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.delete-note-button:hover {
+    color: #dc3545;
+}
+
+.warning-message {
+    color: #dc3545;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
