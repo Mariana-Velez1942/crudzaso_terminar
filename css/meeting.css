@@ -4,7 +4,7 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8; /* Light gray background */
+    background-color: #f8f8f8; 
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -12,12 +12,12 @@ body {
 }
 
 .container {
-    width: 100%; /* Make the main container fill the full width */
+    width: 100%; 
     background-color: #fff;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center; /* This centers the 'content' block */
+    align-items: center; 
 }
 
 .navbar {
@@ -90,7 +90,6 @@ body {
     max-width: 700px;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start;  <-- REMOVED or changed this to align to right for content elements below */
     padding: 0;
     box-sizing: border-box;
 }
@@ -100,8 +99,8 @@ body {
     font-weight: 600;
     margin-bottom: 25px;
     color: #333;
-    width: 100%; /* Ensure title takes full width to allow text-align */
-    text-align: left; /* Keep title aligned left as per image */
+    width: 100%; 
+    text-align: left; 
 }
 
 .note-area {
@@ -128,11 +127,11 @@ body {
 }
 
 .actions {
-    width: 100%; /* Ensure it spans full width of its parent */
+    width: 100%; 
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
-    justify-content: flex-end; /* ALIGN ITEMS TO THE RIGHT */
+    justify-content: flex-end; 
 }
 
 .button {
@@ -165,9 +164,9 @@ body {
 }
 
 .delete-note-container {
-    width: 100%; /* Ensure it spans full width of its parent */
+    width: 100%;
     margin-bottom: 50px;
-    text-align: right; /* ALIGN TEXT (AND INLINE-BLOCK ELEMENTS) TO THE RIGHT */
+    text-align: right;
 }
 
 .delete-note-button {
